@@ -1,0 +1,86 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+.table {
+    text-align: center;
+}
+
+.table a {
+    border: none;
+    color: white;
+    padding: 10px 23px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.table a:nth-child(1) {
+    background-color: #ffcc00;
+    border-color: #ffcc00;
+}
+
+.table a:nth-child(1):hover {
+    background-color: #cca300;
+    border-color: #cca300;
+}
+
+.table a:nth-child(2) {
+    background-color: #66c2ff;
+    border-color: #66c2ff;
+}
+
+    .table a:nth-child(2):hover {
+        background-color: #33adff;
+        border-color: #33adff;
+    }
+
+.table a:nth-child(3) {
+    background-color: #ff3300;
+    border-color: #ff3300;
+}
+
+    .table a:nth-child(3):hover {
+        background-color: #cc2900;
+        border-color: #cc2900;
+    }
+
+.btn {
+    background-color: #33cc33;
+    border-color: #33cc33;
+}
+
+.btn:hover {
+    background-color: #248f24;
+    border-color: #248f24;
+}
+
+.btn-text-right {
+    text-align: right;
+    padding-right: 70px;
+    padding-top: 10px;
+}
+
+#filterBtn {
+    margin-left: 10px;
+    margin-top: -5px;
+}
